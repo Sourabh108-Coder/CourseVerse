@@ -20,7 +20,7 @@ const Card = (props) => {
       }
 
       else{
-        if(liked.length==0){
+        if(liked.length===0){
             setliked([coursedata.id])
         }
         else{
